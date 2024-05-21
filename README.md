@@ -1,8 +1,8 @@
 # Persistent Bottom Navigation Bar
 
-[![pub package version](https://img.shields.io/pub/v/persistent_bottom_nav_bar)](https://pub.dev/packages/persistent_bottom_nav_bar)
-[![license](https://img.shields.io/github/license/BilalShahid13/PersistentBottomNavBar)](https://github.com/BilalShahid13/PersistentBottomNavBar/blob/master/LICENSE)
-[![github stars](https://img.shields.io/github/stars/BilalShahid13/PersistentBottomNavBar?style=social)](https://github.com/BilalShahid13/PersistentBottomNavBar/stargazers)
+[![pub package version](https://img.shields.io/pub/v/persistent_bottom_nav_bar_plus)](https://pub.dev/packages/persistent_bottom_nav_bar_plus)
+[![license](https://img.shields.io/github/license/SujitChanda/PersistentBottomNavBar)](https://github.com/SujitChanda/persistent_bottom_nav_bar_plus/blob/master/LICENSE)
+[![github stars](https://img.shields.io/github/stars/SujitChanda/PersistentBottomNavBar?style=social)](https://github.com/SujitChanda/persistent_bottom_nav_bar_plus/stargazers)
 
 A persistent/static bottom navigation bar for Flutter.
 
@@ -55,13 +55,13 @@ In your flutter project add the dependency:
 
 ```yaml
 dependencies:
-  persistent_bottom_nav_bar: any
+  persistent_bottom_nav_bar_plus: any
 ```
 
 Import the package:
 
 ```dart
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import 'package:persistent_bottom_nav_bar_plus/persistent_tab_view.dart';
 ```
 
 Persistent bottom navigation bar uses `PersistentTabController` as its controller. Here is how to declare it:
@@ -351,4 +351,4 @@ If you want to have your own style for the navigation bar, follow these steps:
 
 3. Done! As we can see, some of the other properties like `iconSize`, `items` are not required here so you can skip those properties. To control the **bottom padding** of the screen, use `bottomScreenPadding`. If you give too much `bottomScreenPadding` but less height in the custom widget or vice versa, layout issues might appear.
 
-For better understanding, refer to the [example project](https://github.com/BilalShahid13/PersistentBottomNavBar/tree/master/example) in the official git repo.
+For better understanding, refer to the [example project](https://github.com/SujitChanda/persistent_bottom_nav_bar_plus/tree/master/example) in the official git repo.

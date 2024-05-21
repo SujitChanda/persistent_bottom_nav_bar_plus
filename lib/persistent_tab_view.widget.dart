@@ -7,7 +7,7 @@ part of '../persistent_bottom_nav_bar_plus.dart';
 
 ///A highly customizable persistent navigation bar for flutter.
 ///
-///To learn more, check out the [Readme](https://github.com/BilalShahid13/PersistentBottomNavBar).
+///To learn more, check out the [Readme](https://github.com/SujitChanda/persistent_bottom_nav_bar_plus).
 
 class PersistentTabView extends PersistentTabViewBase {
   PersistentTabView(this.context,

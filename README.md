@@ -6,7 +6,7 @@
 
 A persistent/static bottom navigation bar for Flutter.
 
-NOTE: Those migrating from **pre 2.0.0** version should check the latest Readme and instructions as there are many breaking changes introduced in the 2.0.0 update
+NOTE: This package is a continuation of [persistent_bottom_nav_bar](https://pub.dev/packages/persistent_bottom_nav_bar).
 
 ![Persistent Behavior](gifs/persistent.gif)
 
